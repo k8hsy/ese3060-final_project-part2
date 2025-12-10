@@ -22,7 +22,6 @@ We replaced the standard AdamW optimizer for the head with **AdEMAMix** (Apple, 
 3. **Running Files:** Download the FineWeb-Edu dataset (10 shards / 1.0B tokens):
    ```bash
    python cached_fineweb10B.py 10
-   ```bash
    --standalone --nproc_per_node=8 train_ademamix.py
 
 ## Conclusion
